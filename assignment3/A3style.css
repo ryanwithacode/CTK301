@@ -1,0 +1,59 @@
+/* This is a style sheet for assignment 3 */
+
+.stylep {
+    color: blueviolet;
+}
+
+.cyanp {
+  color: cyan;
+  background-color: orange;
+}
+
+#redbirdid {
+  color:purple;
+  background-color: bisque;
+}
+
+.division {
+  color: lime
+}
+
+h1 {
+  color:red;
+  background-color: #ffff00;
+}
+
+h2 {
+  color: white;
+  background-color: red;
+}
+
+h3 {
+  color: white;
+  background:blue;
+}
+
+a {
+    color: #ff0000;
+  }
+  
+  /*a:link {
+    color: #00ff00;
+  }
+  */
+  a:visited {
+    color: green;
+  }
+  
+ /* a:active {
+    color: #00ffff;
+  }
+  */
+  a:hover {
+    color: #ffff00;
+  }     
+
+  .spanner {
+    background-color: black;
+    color: red
+  }
