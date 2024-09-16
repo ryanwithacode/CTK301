@@ -1,0 +1,99 @@
+/* This is a style sheet for assignment 3 */
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: white;
+  background-image: url(Shangri-La\ Wallpaper.jpeg);
+}
+
+main {
+  width: 500px;
+}
+
+.picbox {
+  border: 10px solid black;
+  background-color: yellow;
+  padding: 20px;
+}
+
+.p {
+text-align: center;
+}
+
+.stylep {
+    color: blueviolet;
+}
+
+.cyanp {
+  color: cyan;
+  background-color: orange;
+  border: 2px solid #0000ff;
+  padding: 20px 20px 20px 20px;
+  margin: 10px 10px 10px 10px;
+  text-align: justify;
+}
+
+#redbirdid {
+  color:purple;
+  background-color: bisque;
+}
+
+.division {
+  color: lime
+}
+
+h1 {
+  color:orange;
+  background-color: #ffff00;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+
+h2 {
+  color: orange;
+  background-color: red;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h3 {
+  color: orange;
+  background:blue;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h4 {
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+
+a {
+    color: #ff0000;
+  }
+  
+  /*a:link {
+    color: #00ff00;
+  }
+  */
+  a:visited {
+    color: green;
+  }
+  
+ /* a:active {
+    color: #00ffff;
+  }
+  */
+  a:hover {
+    color: #ffff00;
+  }     
+
+  .spanner {
+    background-color: black;
+    color: red
+  }
