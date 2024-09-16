@@ -1,0 +1,67 @@
+
+h1 {
+    color: white;
+    background-color: #87a5ff;
+    
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    background-color: yellow;
+}
+
+h4 {
+    color: yellow;
+    background-color: green;
+    font-weight: bold;
+}
+
+h5 {
+    color: red;
+    font-weight: bold;
+}
+
+.blue {
+    color: blue;
+}
+
+.orange {
+    color: orange;
+}
+
+.yellowred {
+    background-color: yellow;
+}
+
+.mintgreen {
+    background-color: palegreen;
+}
+
+.reddead {
+    color: red;
+}
+
+#Poison {
+    background-color: #87a5ff;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.topbox {
+    color: black;
+    background-color: #87a5ff;
+}
+
