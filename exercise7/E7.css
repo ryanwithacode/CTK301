@@ -1,0 +1,138 @@
+h1 {
+    color: black;
+    font-family: Helvetica;
+    font-weight: normal;
+    background-color: cornflowerblue;
+    margin: 0;
+    padding: 30px;
+    border-bottom: 2px solid black;
+    grid-column: span 6;
+    padding-left: 1em;
+}
+
+h2 {
+    font-family: Georgia;
+    font-weight: bold;
+    grid-column: span 5;
+    border-bottom: 4px solid black;
+    padding-bottom: 8px;
+}
+
+h2.another {
+    border-bottom: 4px solid white;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    margin: 0px;
+}
+
+#Plant {
+    width: 250px;
+    height: 250px;
+    float: right;
+    margin-left: 1em;
+    border: 2px solid black;
+    padding: 0.5em;
+  }
+
+p {
+    font-family: Georgia;
+    text-align: justify;
+    a:link {
+        color: green;
+        font-weight: bold;
+        text-decoration: none;  
+    }
+    a:visited {
+        color: green;
+        text-decoration: none;
+    }
+    a:hover {
+        color: blue;
+        text-decoration: underline;
+    }
+}
+
+#wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 1000px;
+    border: 2px solid black;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+body {
+    background-image: url(MCDirt.jpg);
+    background-size: 200px;
+    background-repeat: repeat;
+}
+
+main {
+    grid-column: span 4;
+    padding: 0 1em 0 1em;
+  }
+
+#boldy {
+    font-weight: none;
+}
+
+aside {
+    grid-column: span 2;
+    color: white;
+    background-color: cornflowerblue;
+    /* padding: 0px, 16px, 0px, 0px; */
+    margin: 16px;
+    padding: 10px;
+    p {
+        font-style: italic;
+    }
+}
+
+.nolean {
+    font-style: normal;
+}
+
+nav {
+    grid-column: span 6;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    border: 2px solid black;
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: green;
+    margin: 10px 10px 5px 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+nav li a {
+    font-family: helvetica;
+    color: white;
+    text-decoration: none;
+    padding: 16px 0px 22px 0px;
+    display: block;
+}
+
+nav li:hover {
+    background-color: darkgreen;
+}
+
+footer {
+    font-family: verdana;
+    font-weight: bold;
+    text-align: left;
+    border-top: 2px solid black;
+    color: black;
+    background-color: cornflowerblue;
+    padding: 1em 1.5em;
+    grid-column: span 6;
+}
