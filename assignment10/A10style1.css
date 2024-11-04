@@ -1,0 +1,85 @@
+html,
+body {
+    max-width: 100%;
+    /* overflow-x: hidden; */
+}
+
+body {
+    background-color: #FFFFC5;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 1em 0px;
+}
+
+ul {
+    list-style-type: none;
+    grid-column: span 2;
+}
+
+nav li {
+    margin-left: 1.5em;
+    font-size: 1.3em;
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: #63360c;
+}
+
+h1 {
+    font-family: 'Akira Expanded', sans-serif;
+    height: 100px;
+    font-size: 2em;
+    border-radius: 20px;
+    padding-top: 0.5px;
+    color: #63360c;
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+h1 a:visited {
+    text-decoration: none;
+    color: #63360c;
+}
+
+.wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 1000px;
+    border: 4px solid #63360c;
+    background-color: #FFFFC5;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+img {
+    max-width: 1000%;
+    /* display: grid; */
+    grid-column: span 4;
+    /* overflow: hidden; */
+    padding-top: 40px;
+    /* padding-bottom: 80px; */
+    margin-top: 50px;
+    /* padding left: calc(100% * (100 / 300)); */
+    /* transform: scale(2); */
+}
+
+main p {
+    grid-column: span 2;
+    display: grid;
+}
+
+#labels {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #63360c;
+    grid-column: span 2;
+}
