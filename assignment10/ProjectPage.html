@@ -1,30 +1,116 @@
 <!DOCTYPE HTML>
 <html>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Ryan James | Portfolio</title>
-    <link href="A10style1.css" rel="stylesheet" type="text/css" />
-</head>
+<div id="container" <head>
+  <meta charset="UTF-8">
+  <title>Ryan James | Projects</title>
+  <link href="A10style1.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.cdnfonts.com/css/akira-expanded" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/e4d5e63b1f.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+  </head>
 
-<body>
+  <body>
+    <header>
 
-    <h1>Ryan James</h1>
-
-    <p>Bruh this my portfolio type beat</p>
-
-    <nav>
+      <h1><a href="MainPage.html">Ryan James</a></h1>
+      <nav>
         <ul>
-            <li><a href="MainPage.html">Home</a></li>
-            <li><a href="ProjectPage.html">ProjectPage</a></li>
-            <li> <a href="AboutPage.html">About Page</a></li>
+          <li><a href="MainPage.html">Home</a></li>
+          <li><a href="ProjectPage.html">Projects</a></li>
+          <li><a href="AboutPage.html">About Me</a></li>
         </ul>
-    </nav>
+      </nav>
+    </header>
     <main>
+      <div id="wrapper">
+        <h2>Projects</h2>
 
-    </main>
+        <h3>Dream Con</h3>
+        <section>
+          <a href="DreamCon (InDesign Photoshop & Illustrator)/Badges/Dream-Con-Badge-1.png" data-fancybox="Dream Con Gallery"
+            data-caption="Dream Con Badge (Front)">
+            <img src="DreamCon (InDesign Photoshop & Illustrator)/Badges/Dream-Con-Badge-1THUMB.png">
+          </a>
+          <a href="DreamCon (InDesign Photoshop & Illustrator)/Badges/Dream-Con-Badge-2-(Back).png"
+            data-fancybox="Dream Con Gallery" data-caption="Dream Con Badge (Back)">
+            <img src="DreamCon (InDesign Photoshop & Illustrator)/Badges/Dream-Con-Badge-2-(Back)THUMB.png">
+          </a>
+          <a href="DreamCon (InDesign Photoshop & Illustrator)/Badges/DC-Badge-Full-Mockup.png" data-fancybox="Dream Con Gallery"
+            data-caption="Dream Con Badge Mockup">
+            <img src="DreamCon (InDesign Photoshop & Illustrator)/Badges/DC-Badge-Full-MockupTHUMB.png">
+          </a>
+          <a href="DreamCon (InDesign Photoshop & Illustrator)/Billboard/DreamCon-Billboard.png" data-fancybox="Dream Con Gallery"
+            data-caption="Dream Con Billboard Design">
+            <img src="DreamCon (InDesign Photoshop & Illustrator)/Billboard/DreamCon-BillboardTHUMB.png">
+          </a>
+          <a href="DreamCon (InDesign Photoshop & Illustrator)/Billboard/DreamCon-Billboard-Mockup.png" data-fancybox="Dream Con Gallery"
+            data-caption="Dream Con Billboard Design">
+            <img src="DreamCon (InDesign Photoshop & Illustrator)/Billboard/DreamCon-Billboard-MockupTHUMB.png">
+          </a>
+        </section>
+        <section>
+          <a href="DreamCon (InDesign Photoshop & Illustrator)/Brochure/Dream Con Brochure (Outside).jpg" data-fancybox="Dream Con Gallery"
+            data-caption="Dream Con Brochure (Outside)">
+            <img src="DreamCon (InDesign Photoshop & Illustrator)/Brochure/Dream Con Brochure (Outside)THUMB.jpg">
+          </a>
+          <a href="DreamCon (InDesign Photoshop & Illustrator)/Brochure/Dream Con Brochure (Inside).jpg" data-fancybox="Dream Con Gallery"
+            data-caption="Dream Con Brochure Inside">
+            <img src="DreamCon (InDesign Photoshop & Illustrator)/Brochure/Dream Con Brochure (Inside)THUMB.jpg">
+          </a>
+          <a href="DreamCon (InDesign Photoshop & Illustrator)/Brochure/Dream-Con-Borhucre-Mockup.png" data-fancybox="Dream Con Gallery"
+            data-caption="Dream Con Brochure Mockup">
+            <img src="DreamCon (InDesign Photoshop & Illustrator)/Brochure/Dream-Con-Borhucre-MockupTHUMB.png">
+          </a>
+        </section>
+      </div>
+      <!-- <div class="layout">
+      <div class="child">
+        <span><a href="DreamCon (InDesign Photoshop & Illustrator)/Badges/DC-Badge-Full-Mockup.png"
+            data-fancybox="gallery" data-caption="Water">
+            <img src="DreamCon (InDesign Photoshop & Illustrator)/Badges/DC-Badge-Full-Mockup-Thumbnail.jpg"></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="child">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="child last-row">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div> -->
+</div>
+<!-- <audio controls>
+  <source src="Restuarant Theme.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio> -->
+</main>
+<!-- <aside> -->
+</aside>
+</div>
 <footer>
+
 </footer>
+</div>
+<script>
+   // Javascript for Fancy Box
+    Fancybox.bind("[data-fancybox]", {});
+    // Javascript for Carousel//
+    const container = document.getElementById("myCarousel");
+    const options = { infinite: false };
+    new Carousel(container, options);
+
+     // Javascript for Carousel//
+     const container2 = document.getElementById("myCarousel2");
+    const options2 = { infinite: true };
+    new Carousel(container2, options2);
+</script>
 </body>
 
 </html>
