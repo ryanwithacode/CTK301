@@ -31,6 +31,7 @@ nav li {
     margin-left: 1.5em;
     font-size: 1.3em;
     display: inline;
+    font-family: 'LEMON MILK',sans-serif;
 }
 
 nav a {
@@ -91,7 +92,14 @@ h2 {
 }
 
 h3 {
+  font-family: 'LEMON MILK',sans-serif;
   color: #63360c;
+}
+
+p {
+  font-family: 'Urbanist';
+  color: #63360c;
+  margin-top: 0px;
 }
 
 .wrapper {
